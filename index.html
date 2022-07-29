@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" type="text/css"/>
+        <title>Parcial 2 Henry Mart&iacute;nez</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="Servlet" onsubmit="return validarDatos()">
+            <div id="div1">
+                <h3>Ingreso de datos</h3>
+                Usuario <input type="text" id="userbox" name="usuario"> 
+                <br><br>
+                Contrase&nacute;a: <input type="password" id="passbox" name="contrasenia">
+                <br><br>
+                Identificaci&oacute;n: <input type="text" id="idbox">
+                <br><br>
+                Email: <input type="text" id="emailbox">
+                <br><br>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <script src="logic.js"></script>
+    </body>
+</html>
